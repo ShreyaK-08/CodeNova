@@ -1,5 +1,6 @@
 # CodeNova — Online Coding Practice & Skill Assessment Management Platform
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black.svg?style=flat&logo=vercel)](https://code-nova-psi.vercel.app)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.4-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-18.x-61dafb.svg)](https://react.dev/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.4-blue.svg)](https://www.mysql.com/)
@@ -9,14 +10,16 @@ A full-stack, enterprise-grade online coding practice, proctored skill assessmen
 
 ---
 
-## 📸 Project Screenshots & Visual Artifacts
+## 🚀 Live Demo & Artifacts
 
-> 📁 **Complete Project Visuals Archive**:  
-> **[View All High-Resolution Screenshots on Google Drive](https://drive.google.com/drive/folders/11YsT042SkuQ-w6gSjmh5KoVbhFb7c7ry)**
+- 🌐 **Live Web Application (Vercel)**: **[https://code-nova-psi.vercel.app](https://code-nova-psi.vercel.app)**
+- 📁 **Complete Project Visuals Archive (Google Drive)**: **[View All High-Resolution Screenshots](https://drive.google.com/drive/folders/11YsT042SkuQ-w6gSjmh5KoVbhFb7c7ry)**
 
 ---
 
 ## Table of Contents
+
+- [Live Demo & Artifacts](#-live-demo--artifacts)
 
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
