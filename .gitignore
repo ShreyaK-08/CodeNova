@@ -1,0 +1,47 @@
+# =============================================================================
+# CodeNova Root GitIgnore
+# =============================================================================
+
+# Build & compiled outputs
+**/target/
+**/*.class
+**/dist/
+**/build/
+**/out/
+
+# Dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.js
+
+# Logs & temporary files
+*.log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment & local settings
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and Editors
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploaded test media / runtime storage
+backend/storage/host-verification-documents/*
+!backend/storage/host-verification-documents/.gitkeep
+backend/uploads/support/*
+!backend/uploads/support/.gitkeep

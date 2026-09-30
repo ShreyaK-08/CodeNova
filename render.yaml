@@ -1,0 +1,33 @@
+services:
+  # Spring Boot Backend Web Service
+  - type: web
+    name: codenova-backend
+    env: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
+    plan: free
+    healthCheckPath: /api/problems
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: SPRING_DATASOURCE_URL
+        fromDatabase:
+          name: codenova-db
+          property: connectionString
+      - key: SPRING_DATASOURCE_USERNAME
+        fromDatabase:
+          name: codenova-db
+          property: user
+      - key: SPRING_DATASOURCE_PASSWORD
+        fromDatabase:
+          name: codenova-db
+          property: password
+      - key: FRONTEND_URL
+        value: https://codenova-frontend.vercel.app
+
+databases:
+  # MySQL Database Instance
+  - name: codenova-db
+    databaseName: coding_platform
+    user: root
+    plan: free
