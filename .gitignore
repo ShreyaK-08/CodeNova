@@ -45,3 +45,8 @@ backend/storage/host-verification-documents/*
 !backend/storage/host-verification-documents/.gitkeep
 backend/uploads/support/*
 !backend/uploads/support/.gitkeep
+
+# Screenshots & Local media
+screenshots/
+Shreya K/
+
